@@ -1,0 +1,13 @@
+runtime: python
+service: streamlit
+env: flex
+
+entrypoint: streamlit run main.py --server.port $PORT
+
+runtime_config:
+  python_version: 3
+
+
+
+automatic_scaling:
+    max_num_instances: 1

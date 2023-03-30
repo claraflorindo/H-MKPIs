@@ -1,0 +1,9 @@
+SQLAlchemy
+pandas
+numpy
+streamlit
+pathlib
+requests
+plotly.express
+streamlit_authenticator
+pymysql
