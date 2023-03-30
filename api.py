@@ -11,10 +11,7 @@ from datetime import datetime
 from flask_restx import Api, Namespace, Resource, \
     reqparse, inputs, fields
 
-user = "root"
-passw = "123456"
-host = "34.175.38.220"
-database = "main"
+
 
 app = Flask(__name__)
 
